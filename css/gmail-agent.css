@@ -1,0 +1,13 @@
+.date-group-tr {
+    display: flex;
+    text-transform: uppercase;
+    font-size: smaller;
+    background: #3f51b530;
+}
+.date-group-tr:not(.date-group-0) {
+    margin-top: 30px;
+}
+
+tr.collapsed {
+    display: none;
+}
